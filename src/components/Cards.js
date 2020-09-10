@@ -5,41 +5,41 @@ import CardItem from './CardItem';
 function Cards() {
     return (
         <div className='cards'>
-            <h1>Check out these EPIC Destinations!</h1>
+            <h1>Check out some of my Past Projects!</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-9.jpg'
-                            text='Explore the hidden waterfall deep inside the Amazon Jungle'
-                            label='Adventure'
-                            path='/services'
+                            src='images/github.png'
+                            text='Access past projects on my GitHub'
+                            label='About Me'
+                            path='/github'
                         />
                         <CardItem
-                            src='images/img-2.jpg'
-                            text='Travel through the Islands of Bali in a Private Cruise'
-                            label='Luxury'
-                            path='/services'
+                            src='images/clipboard.jpg'
+                            text='Download my Resume'
+                            label='About Me'
+                            path='/clipboard'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/img-3.jpg'
+                            src='images/wiki.png'
                             text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
                             label='Mystery'
-                            path='/services'
+                            path='/projects'
                         />
                         <CardItem
-                            src='images/img-4.jpg'
+                            src='images/grocery.png'
                             text='Experience Football on Top of the Himilayan Mountains'
                             label='Adventure'
-                            path='/products'
+                            path='/projects'
                         />
                         <CardItem
-                            src='images/img-8.jpg'
+                            src='images/python.jpg'
                             text='Ride through the Sahara Desert on a guided camel tour'
                             label='Adrenaline'
-                            path='/sign-up'
+                            path='/projects'
                         />
                     </ul>
                 </div>
