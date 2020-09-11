@@ -4,15 +4,13 @@ import CardItem from './CardItem';
 
 function ProjectCards() {
     return (
-
         <div className='cards'>
-            <h1>Check out some of my Past Projects!</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
                             src='images/python.jpg'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+                            text='Python Conversion Scripts'
                             label='Python'
                             path='/projects'
                         />
@@ -20,7 +18,7 @@ function ProjectCards() {
                             src='images/img-4.jpg'
                             text='Personal Website'
                             label='ReactJS'
-                            path='/home'
+                            path='/'
                         />
                         <CardItem
                             src='images/graph.jpg'
@@ -43,7 +41,7 @@ function ProjectCards() {
                             path='/projects'
                         />
                         <CardItem
-                            src='images/grocery.jpg'
+                            src='images/grocery.png'
                             text='Stock-Stalker'
                             label='ReactJS / Django / MongoDB'
                             path='/projects'
