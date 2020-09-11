@@ -13,33 +13,33 @@ function Cards() {
                             src='images/github.png'
                             text='Access past projects on my GitHub'
                             label='About Me'
-                            path='/github'
+                            path='https://github.com/joshuayellowley'
                         />
                         <CardItem
-                            src='images/clipboard.jpg'
-                            text='Download my Resume'
+                            src='images/linkedin.jpg'
+                            text='LinkedIn Profile'
                             label='About Me'
-                            path='/clipboard'
+                            path='/'
                         />
                     </ul>
                     <ul className='cards__items'>
                         <CardItem
                             src='images/wiki.png'
-                            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-                            label='Mystery'
-                            path='/projects'
+                            text='Wikipedia Data Server'
+                            label='Java'
+                            path='https://github.com/Joshuayellowley/CPEN-221-Wikipedia_Mediator'
                         />
                         <CardItem
                             src='images/grocery.png'
-                            text='Experience Football on Top of the Himilayan Mountains'
-                            label='Adventure'
-                            path='/projects'
+                            text='Stock-Stalker'
+                            label='ReactJS / Python'
+                            path='https://github.com/cowmanjoe/stock-watcher'
                         />
                         <CardItem
-                            src='images/python.jpg'
-                            text='Ride through the Sahara Desert on a guided camel tour'
-                            label='Adrenaline'
-                            path='/projects'
+                            src='images/graph.jpg'
+                            text='Graph Theory Path-Finding Game'
+                            label='Java'
+                            path='https://github.com/Joshuayellowley/CPEN-221-Kamino-Game'
                         />
                     </ul>
                 </div>

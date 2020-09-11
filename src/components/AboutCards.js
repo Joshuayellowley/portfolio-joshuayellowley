@@ -10,22 +10,22 @@ function ProjectCards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/python.jpg'
+                            src='images/rcm.png'
                             text='Royal Conservatory of Music Gr.10 Piano'
                             label='Music'
-                            path='/about'
+                            path='https://www.rcmusic.com/'
                         />
                         <CardItem
-                            src='images/img-4.jpg'
+                            src='images/calhacks.png'
                             text='Hack-a-Thons'
                             label='Coding'
-                            path='/about'
+                            path='https://calhacks.io/'
                         />
                         <CardItem
-                            src='images/graph.jpg'
-                            text='Video-Games'
+                            src='images/games.png'
+                            text='Video Games'
                             label='Social'
-                            path='/about'
+                            path='https://store.steampowered.com/'
                         />
                     </ul>
                 </div>

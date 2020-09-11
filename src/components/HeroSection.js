@@ -2,32 +2,36 @@ import React from 'react';
 import '../App.css';
 import { Button } from './Button';
 import './HeroSection.css';
+import { DownloadButton } from './DownloadButton';
 
 function HeroSection() {
     return (
         <div className='hero-container'>
             <video src='/videos/video-1.mp4' autoPlay loop muted />
             <h1>Passionate Programmer and Lifelong Learner</h1>
-            <p>3rd Year Computer Engineering Student</p>
+            <p>My name is Joshua Yellowley</p>
             <p>Welcome to my website</p>
             <div className='hero-btns'>
-                <Button
+
+                <DownloadButton
                     className='btns'
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'
+                // link='/about'
                 >
-                    GET STARTED
-                </Button>
+                    RESUME
+                </DownloadButton>
+
                 <Button
                     className='btns'
                     buttonStyle='btn--primary'
                     buttonSize='btn--large'
-                    onClick={console.log('hey')}
+                    link='/contact'
                 >
                     CONTACT ME
                 </Button>
             </div>
-        </div>
+        </div >
     );
 }
 

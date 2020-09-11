@@ -12,19 +12,19 @@ function ProjectCards() {
                             src='images/python.jpg'
                             text='Python Conversion Scripts'
                             label='Python'
-                            path='/projects'
+                            path='https://github.com/joshuayellowley'
                         />
                         <CardItem
-                            src='images/img-4.jpg'
+                            src='images/react.png'
                             text='Personal Website'
                             label='ReactJS'
-                            path='/'
+                            path='https://github.com/Joshuayellowley/portfolio-joshuayellowley'
                         />
                         <CardItem
                             src='images/graph.jpg'
                             text='Graph Theory Path-Finding Game'
                             label='Java'
-                            path='/projects'
+                            path='https://github.com/Joshuayellowley/CPEN-221-Kamino-Game'
                         />
                     </ul>
                     <ul className='cards__items'>
@@ -32,7 +32,7 @@ function ProjectCards() {
                             src='images/wiki.png'
                             text='Wikipedia Data Server'
                             label='Java'
-                            path='/projects'
+                            path='https://github.com/Joshuayellowley/CPEN-221-Wikipedia_Mediator'
                         />
                         <CardItem
                             src='images/cards.jpg'
@@ -44,7 +44,7 @@ function ProjectCards() {
                             src='images/grocery.png'
                             text='Stock-Stalker'
                             label='ReactJS / Django / MongoDB'
-                            path='/projects'
+                            path='https://github.com/cowmanjoe/stock-watcher'
                         />
                     </ul>
                 </div>

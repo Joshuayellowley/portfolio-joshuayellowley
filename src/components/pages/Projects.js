@@ -10,7 +10,13 @@ function Projects() {
                 PROJECTS
             </h1>
             <p className='page_description'>
-                This is where a description about myself will go.  I am a big programmer and a even bigger beast.  Watch out everyone a Beast is coming through.
+                The below cards have links to some of my prior projects available on my Github.
+                The topics span all different aspects of computer programming, from Web Development to navigating Data Structures using Algorithms.
+                Feel free to explore the code I have written.
+            <p className='languages'>
+                    Programming Language Experience: Python, Javascript, ReactJS, C, C++, Java, Verilog, SystemVerilog, Assembly
+            </p>
+
             </p>
             <ProjectCards />
         </>
