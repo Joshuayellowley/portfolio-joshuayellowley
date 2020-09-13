@@ -7,8 +7,8 @@ export default function Contact() {
         <>
             <h1 className="contact">
                 CONTACT INFORMATION
-            </h1>
-            <p className='page_description'>
+             </h1>
+            {/* <p className='page_description'>
                 <p>
                     Email: Joshuayellowley@gmail.com
                 </p>
@@ -16,7 +16,7 @@ export default function Contact() {
                     Phone: 604 988 7726
                 </p>
 
-            </p>
+            </p> */}
             <ContactCards />
         </>
     );

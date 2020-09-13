@@ -9,9 +9,9 @@ function ProjectCards() {
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
                         <CardItem
-                            src='images/python.jpg'
-                            text='Python Conversion Scripts'
-                            label='Python'
+                            src='images/todo.png'
+                            text='To-Do List Utilizing MERN Full Stack'
+                            label='MongoDB, ReactJS, NodeJS'
                             path='https://github.com/joshuayellowley'
                         />
                         <CardItem
@@ -38,7 +38,7 @@ function ProjectCards() {
                             src='images/cards.jpg'
                             text='5-Card Poker Game'
                             label='Java'
-                            path='/projects'
+                            path='https://github.com/Joshuayellowley'
                         />
                         <CardItem
                             src='images/grocery.png'

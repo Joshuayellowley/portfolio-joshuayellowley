@@ -10,7 +10,7 @@ function ContactCards() {
                     <ul className='cards__items'>
                         <CardItem
                             src='images/linkedin.jpg'
-                            text='LinkedIn'
+                            text='LinkedIn Profile'
                             label='Social'
                             path='https://www.linkedin.com/in/joshua-yellowley-3739b5141/'
                         />
@@ -22,19 +22,19 @@ function ContactCards() {
                         /> */}
                         <CardItem
                             src='images/facebook.png'
-                            text='Facebook'
+                            text='Facebook Profile'
                             label='Social'
                             path='https://www.facebook.com/joshua.yellowley/'
                         />
                         <CardItem
                             src='images/twitter.png'
-                            text='Twitter'
+                            text='Twitter Profile'
                             label='Social'
                             path='https://twitter.com/JoshuaYellowley'
                         />
                         <CardItem
                             src='images/instagram.jpg'
-                            text='Instagram'
+                            text='Instagram Profile'
                             label='Social'
                             path='https://www.instagram.com/joshua_yellowley/?hl=en'
                         />
